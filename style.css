@@ -1,3 +1,29 @@
-.topnav-right {
-  float: right;
+header {
+  background: #333;
 }
+
+/* .container {
+  width: 800px;
+  margin: 0 auto;
+} */
+
+/* h1 {
+  font-size: 28px;
+  color: rgb(238, 238, 238);
+  text-align: left;
+} */
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: blue;
+}
+.col-md-4{
+  background: white;
+}
+
+.col-md-6{
+  background: white;
+}
+
+.container { background: #D3D3D3; }

@@ -18,16 +18,14 @@
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
-            <a class="dropdown-item" href="Humidity.html">Humidity</a>
-            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
-          </div>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+          <ul class="dropdown-menu">
+           <li><a href="visualizations/temp.html">Max Temperature</a></li>
+            <li><a href="visualizations/humidity.html">Humidity</a></li>
+            <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+            <li><a href="visualizations/wind.html">Wind Speed</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Comparison.html">Comparison</a>
@@ -45,7 +43,7 @@
       <div class="col-md-8">
         <div class="jumbotron">
           <div class="thumbnail1">
-            <img src="C:\Users\deler\OneDrive\Butler Data and Analytics Course\Web-Design-Challenge\assets\images\Fig1.png" alt="Fig1.png" class="img-thumbnail">
+            <img src="assets\images\Fig1.png" alt="Fig1.png" class="img-thumbnail">
           </div>
           <h1 class="display-4">Summary: Latitude vs X.</h1>
           <p class="lead">The purpose of this project was to analyze how weather changes as you get closer to the equator.  
@@ -64,25 +62,25 @@
             <a href="MaxTemp.html"> 
             <div class="col-md-6">
                 <div class="thumbnail">
-                  <img src="C:\Users\deler\OneDrive\Butler Data and Analytics Course\Web-Design-Challenge\assets\images\Fig1.png" alt="Fig1.png" class="img-thumbnail">
+                  <img src="assets\images\Fig1.png" alt="Fig1.png" class="img-thumbnail">
                 </div></a>
               </div>
               <a href="Humidity.html"> 
               <div class="col-md-6">
                   <div class="thumbnail">
-                    <img src="C:\Users\deler\OneDrive\Butler Data and Analytics Course\Web-Design-Challenge\assets\images\Fig2.png" alt="Fig2.png" class="img-thumbnail">
+                    <img src="assets\images\Fig2.png" alt="Fig2.png" class="img-thumbnail">
                   </div></a>
               </div>
               <a href="Cloudiness.html"> 
               <div class="col-md-6">
                   <div class="thumbnail">
-                    <img src="C:\Users\deler\OneDrive\Butler Data and Analytics Course\Web-Design-Challenge\assets\images\Fig3.png" alt="Fig3.png" class="img-thumbnail">
+                    <img src="assets\images\Fig3.png" alt="Fig3.png" class="img-thumbnail">
                   </div></a>
               </div>
               <a href="WindSpeed.html"> 
               <div class="col-md-6">
                 <div class="thumbnail">
-                  <img src="C:\Users\deler\OneDrive\Butler Data and Analytics Course\Web-Design-Challenge\assets\images\Fig4.png" alt="Fig4.png" class="img-thumbnail">
+                  <img src="assets\images\Fig4.png" alt="Fig4.png" class="img-thumbnail">
                 </div></a>
               </div>
           </div>
@@ -91,3 +89,10 @@
 
   </div>
 
+   <!-- jQuery CDN -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <!-- Bootstrap CDN -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>

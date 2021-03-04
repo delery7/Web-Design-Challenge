@@ -18,7 +18,11 @@ header {
   line-height: 1.2;
   color: blue;
 }
-.col-md-4{
+/* .col-md-4{
+  background: white;
+} */
+
+.container1{
   background: white;
 }
 
@@ -27,3 +31,10 @@ header {
 }
 
 .container { background: #eeaf7b; }
+
+#thumbnail1 {
+  float: left;
+  top: 0 px;
+  left: 0 px;
+}
+
